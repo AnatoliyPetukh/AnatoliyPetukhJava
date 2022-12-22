@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Rightname {
     public static void main (String[] args){
         Scanner input = new Scanner(System.in);
-        System.out.println("Please enter a your name");
+        System.out.println("Введите ваше имя");
         while (true){
             String name = input.nextLine();
             if(name.equalsIgnoreCase("вячеслав")) {
